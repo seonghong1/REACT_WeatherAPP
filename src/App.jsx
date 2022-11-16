@@ -10,7 +10,7 @@ import { Invert } from './Context/InvertContext';
 const filters = ['ALL', 'ACTIVE', 'COMPLETED']
 function App() {
   //초기값은 필터 배열의 첫번째 값으로 시작(all)
-  const [filter, setFilter] = useState([filters[0]])
+  const [filter, setFilter] = useState(filters[0])
   const [dark, setDark] = useState(false)
 
 

@@ -46,7 +46,7 @@ console.log('filter[0]은? ',filter[0])
 }
 //todolist컴포넌트 바깥 부분에 필터링하는 함수 정의
 function getFilteredItem(todos, filter){//첫번째 인자는 위에서 받아온 todos배열, app.jsx에 필터값
-if(filter === 'ALL' || filter == filter[0]){
+if(filter === 'ALL' || filter === filter[0]){
   return todos
 }
 return todos.filter((todo)=>todo.status === filter)
