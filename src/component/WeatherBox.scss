@@ -1,0 +1,23 @@
+.weather_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .city{
+        font-weight: 900;
+        color: rgb(67, 87, 175);
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+    .temp{
+        font-weight: 800;;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 28px;
+        margin-bottom: 70px;
+    }
+    .description{
+        font-weight: 600;;
+        color: rgb(103, 40, 185);
+        font-size: 47px;
+    }
+}
