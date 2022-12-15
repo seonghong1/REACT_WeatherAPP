@@ -12,8 +12,8 @@
 ##### position.coords.latitude / position.coords.longitude
 ##### 구해서 컴포넌트에 props로 전달해준 뒤 화면에 노출시켰습니다.
 ##### 또한 데이터가 respone(await response.json) 되기 이전에 로딩애니메이션을 노출시켜
-##### useState를 사용해 boolean값을 넣어주고 true일땐 로딩애니메이션을, false일땐 갖고온 
-##### 데이터를 노출시키도록 하였다.
+##### useState를 사용해 boolean값을 넣어주고 true일땐 로딩애니메이션을, 데이터가 불러와진 뒤에는 
+##### false로 값을 변경하여 구현했습니다.
 
 # 느낀점, 알게된점, 나의 생각
 ##### react에서 api데이터를 갖고오는 방법은 js를 사용해 달라진점은 없지만
