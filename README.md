@@ -1,3 +1,7 @@
-날씨앱
+# 🌞Weather APP🌞
 
-깃허브 이슈로인한 재업로드
+##사용기술
+- weather API 
+- useEffect
+- useState
+
