@@ -1,7 +1,7 @@
 # 🌞Weather APP🌞
 
-##사용기술
-- weather API 
-- useEffect
-- useState
+## 사용기술
+- ### weather API 
+- ### useEffect
+- ### useState
 
